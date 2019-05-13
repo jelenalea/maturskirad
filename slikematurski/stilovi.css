@@ -1,0 +1,100 @@
+*{ 
+    box-sizing: border-box;
+
+}
+
+.prva{
+    float: left;
+    border-radius: 30px;
+}
+.druga{
+    float: right;
+    border-radius: 30px;
+}
+header{
+    text-align: center;
+    background-color:rgb(187, 185, 185);
+    color: black;
+    padding: 60px;
+    margin: 0px;
+    border: 0px;
+    text-decoration: underline;
+    
+}
+
+
+body{
+    margin: 0px;
+    border:0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(187, 185, 185);
+    margin-left:40px  ;
+     margin-right:40px  
+}
+
+nav{
+    height: 55px;
+    color: black;
+    background-color: gray;
+    
+}
+nav ul{
+    overflow: hidden;
+    padding:0px;
+    margin:0px;
+    border: 0px;
+    list-style-type:none;
+    background-color: gray;
+
+
+}
+nav ul li{
+    float:left;
+}
+
+nav li a{
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    padding: 20px;
+    color: black;
+}
+ li a:hover{
+     background-color: whitesmoke;
+     width: 100%;
+     
+ }
+
+
+ section{
+     padding: 10px;
+     background-color:bisque;
+     margin-top: 3px  ;
+ }
+section ul li{
+    list-style-type: square;
+}
+
+ section li a{
+    display: block;
+    text-align: left;
+    text-decoration: underline;
+    padding: 10px;
+    color: black;
+ }
+ footer{
+     width: 100%;
+     text-align: center;
+     margin: 0px;
+     padding: 0px;
+     background-color: whitesmoke;
+     color:black;
+ }
+
+ h1,h2{
+     text-align: center;
+ }
+ p{
+     text-indent: 30px;
+ }
